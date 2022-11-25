@@ -1,0 +1,272 @@
+* {
+    font-family:'IBM Plex Serif';
+
+}
+
+/* #pengertian {
+    background-color: #65CA42;
+    color: white;
+    width: 223px;
+    height: 99px;
+    left: 50px;
+    top: 510px;
+    position: absolute;
+    border-radius: 5px;
+    text-align: center;
+} */
+
+#rumus {
+    background-color: #65CA42;
+    color: white;
+    position: absolute;
+    width: 223px;
+    height: 99px;
+    left: 285px;
+    top: 510px;
+    position: absolute;
+    border-radius: 5px;
+    text-align: center;
+
+
+}
+
+#kalkulator {
+    background-color: #65CA42;
+    color: white;
+    position: absolute;
+    width: 223px;
+    height: 99px;
+    left: 520px;
+    top: 510px;
+    position: absolute;
+    border-radius: 5px;
+    text-align: center;
+}
+
+img {
+    position: absolute;
+    width: 700px;
+    height: 600px;
+    left: 800px;
+    top: 150px;
+    opacity: 40%;
+
+}
+
+
+h6 {
+    background-color: #48962D;
+    color: #48962D;
+    width: 102%;
+    height: 100px;
+    margin-top: -20px;
+    margin-left: -10px;
+}
+
+.col-image {
+    position: absolute;
+    width: 488px;
+    height: 129px;
+    left: 910px;
+    top: 380px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: center;
+}
+
+h3 {
+    padding-left: 270px;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+h1 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    left: 105px;
+    top: 190px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    background-color: #65CA42;
+    color: white;
+    width: 223px;
+    height: 99px;
+    left: 50px;
+    top: 510px;
+    position: absolute;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#p-harta {
+    font-family: 'IBM Plex Serif';
+    background-color: #65CA42;
+    height: 140px;
+    width: 542px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 9%;
+
+}
+
+#p-agama {
+    font-size: 30px;
+    height: 40px;
+    width: 600px;
+    margin-top: 30px;
+}
+
+#p-agama2 {
+    height: 40px;
+    width: 580px;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 8%;
+}
+
+#p-bahasa {
+    font-size: 30px;
+    width: 650px;
+    height: 40px;
+    left: 660px;
+    top: 255px;
+    position: absolute;
+
+}
+
+#p-bahasa2 {
+    position: absolute;
+    width: 529px;
+    height: 40px;
+    left: 850px;
+    top: 395px;
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height:px;
+    text-align: center;
+
+}
+
+#p-cara{
+    font-family: 'IBM Plex Serif';
+    background-color: #65CA42;
+    height: 140px;
+    width: 542px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 9%;
+    border-radius: 5px;
+    
+}
+
+#p-cara2{
+    font-size: 28px;
+    padding-left: 145px;
+    margin-top: 20px;
+    
+}
+
+#p-cara3{
+    position: absolute;
+    width: 602px;
+    left: 155px;
+    top: 350px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#p-langkah{
+    position: absolute;
+    width: 950px;
+    height: 65px;
+    left: 640px;
+    top: 290px;
+    font-size: 18px;
+}
+
+
+
+
+li {
+    color: white !important;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.previous {
+    background-color: #aaa9a9;
+    color: black;
+}
+
+.next {
+    background-color: #20ad4b;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+/*
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(235, 213, 213);
+    color: white;
+}
